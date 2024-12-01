@@ -150,23 +150,23 @@ case "$platformSelection" in
         platformMakefile="$makefilePath/Makefile.GnuLinux"
     ;;
 
+
     "2" )
         platformName="MacOSX"
         platformMakefile="$makefilePath/Makefile.MacOSX"
     ;;
 
+
     "3" )
         platformName="Win32 MinGW"
         platformMakefile="$makefilePath/Makefile.MinGW"
     ;;
-
     "4" )
         platformName="Raspbian"
         platformMakefile="$makefilePath/Makefile.Raspbian"
     ;;
-
     "5" )
-        platformName="Win32 MinGW on Linux"
+        platformName="Win32 MinGW"
         platformMakefile="$makefilePath/Makefile.MinGWCross"
     ;;
 
